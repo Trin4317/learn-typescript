@@ -1,0 +1,21 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Nuxt 3 Project",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers-contrib/features/typescript:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"ritwickdey.LiveServer"
+			]
+		}
+	},
+	// "postCreateCommand": "npm install"
+}
