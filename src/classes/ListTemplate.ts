@@ -1,6 +1,6 @@
 import { HasFormatter } from "../interfaces/HasFormatter";
 
-export class ListTemplet {
+export class ListTemplate {
   constructor(
     private container: HTMLUListElement
   ){}
